@@ -2,7 +2,7 @@
 
 import streamlit as st
 from PIL import Image 
-from segment import process
+from recognize_number import process
 
 st.title('Number recognition demo')
 
