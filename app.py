@@ -14,5 +14,4 @@ if not image_file is None:                                           # Выпо�
     result = process(image_file)                                     # Обработка изображения с помощью функции, реализованной в другом файле
     col1.text('Source image')
     col1.image(image)                                                # Вывод в первой колонке исходного изображения
-    col2.text('Number ' + str(result))
-    col2.image(result[1])                                            # Вывод результат во второй колонке
+    col2.text('Image depicts number ' + str(result))
